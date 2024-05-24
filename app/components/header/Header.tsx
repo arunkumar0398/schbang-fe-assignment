@@ -4,15 +4,15 @@ import styles from './header.module.css';
 
 function Header() {
 	const [isOpen, setIsOpen] = useState(false);
-	const menuRef = useRef(null);
+	const menuRef = useRef<HTMLDivElement | null>(null);
 
 	const navClick = (e: { preventDefault: () => void; }) => {
 		e.preventDefault();
 		isOpen ? setIsOpen(false) : setIsOpen(true);
 	};
 
-	const handleClickOutside = (event: { target: any; }) => {
-		if (menuRef.current && !menuRef.current.contains(event.target)) {
+	const handleClickOutside = (event: MouseEvent) => {
+		if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
 			setIsOpen(false);
 		}
 	};

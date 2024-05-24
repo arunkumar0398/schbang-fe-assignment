@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { sliderData } from "../../utils/sliderData";
 import "aos/dist/aos";
-import AOS from "aos";
+const AOS = require('aos')
 import "aos/dist/aos.css";
 
 const Services = () => {

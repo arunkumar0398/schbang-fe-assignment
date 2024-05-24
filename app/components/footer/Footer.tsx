@@ -2,7 +2,7 @@
 import React from "react";
 import styles from "./footer.module.css";
 import "aos/dist/aos";
-import AOS from "aos";
+const AOS = require('aos')
 import "aos/dist/aos.css";
 
 function Footer() {

@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import styles from "./client.module.css";
 import "aos/dist/aos";
-import AOS from "aos";
+const AOS = require('aos')
 import "aos/dist/aos.css";
 
 const Clients = () => {

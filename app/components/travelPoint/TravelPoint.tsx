@@ -23,6 +23,11 @@ function TravelPoint() {
 							className={styles.services_image}
 						/>
 					</div>
+					<div className="absolute top-[18%] left-[34%] rounded-full bg-white py-[16px] px-[32px]">
+						<img src="/assets/discount.png" alt="discount logo" className="inline-block" />
+
+						<span className="inline-block text-[23px] ml-4 font-bold">Discounted Price</span>
+					</div>
 				</div>
 				<div className={styles.travel_point_right}>
 					<h3 className={styles.travel_point_subtitle} data-aos="fade-up">

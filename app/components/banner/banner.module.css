@@ -56,7 +56,7 @@
 }
 
 .banner_subHeading {
-	font-family: "Inter";
+	font-family: "Nunito Sans", sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 160%;
@@ -120,111 +120,6 @@
 	overflow: hidden;
 }
 
-/* Banner style start Here*/
-
-.banner_wrapper {
-	max-width: 1308px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 64px 10px 0px 89px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.banner_left {
-	max-width: 427px;
-	width: 100%;
-}
-
-.banner_chip {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 16px;
-	width: 225px;
-	height: 56px;
-	background: #ffffff;
-	box-shadow: 0px 548px 219px rgba(0, 0, 0, 0.01),
-		0px 308px 185px rgba(0, 0, 0, 0.04), 0px 137px 137px rgba(0, 0, 0, 0.06),
-		0px 34px 75px rgba(0, 0, 0, 0.07), 0px 0px 0px rgba(0, 0, 0, 0.07);
-	border-radius: 100px;
-	margin-bottom: 43px;
-}
-
-.banner_chip_text {
-	font-style: normal;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 120%;
-	color: #f85e9f;
-}
-
-.banner_chip_icon {
-	display: flex;
-	width: 24px;
-	height: 24px;
-}
-
-.banner_text_content {
-	margin-bottom: 43px;
-}
-
-.heading {
-	font-style: normal;
-	font-weight: 700;
-	font-size: 69px;
-	line-height: 120%;
-	color: #000000;
-	margin-bottom: 43px;
-}
-
-.banner_subHeading {
-	font-family: "Inter";
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 160%;
-	color: rgba(25, 24, 37, 0.5);
-	margin-bottom: 43px;
-}
-
-.pink_text {
-	color: #f85e9f;
-}
-
-.banner_buttons {
-	max-width: 337px;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.get_started {
-	background: #5d50c6;
-	box-shadow: 0px 81px 32px rgba(0, 0, 0, 0.01),
-		0px 45px 27px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.09),
-		0px 5px 11px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
-	border-radius: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	max-width: 140px;
-	height: 49px;
-	width: 100%;
-}
-
-.get_started:hover,
-.signUp_btn_link:hover,
-.subscribe_btn:hover {
-	background: #281c87;
-}
-
-.get_started_text {
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 120%;
-	color: #eeeeee;
-}
 
 .demo_button {
 	align-items: center;

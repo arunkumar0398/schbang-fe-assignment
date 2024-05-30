@@ -74,7 +74,7 @@
 .contacts_links,
 .meet_us_links {
 	display: block;
-	font-family: "Inter";
+	font-family: "Nunito Sans", sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -187,7 +187,7 @@
 }
 
 .banner_subHeading {
-	font-family: "Inter";
+	font-family: "Nunito Sans", sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 160%;

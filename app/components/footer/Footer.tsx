@@ -144,6 +144,14 @@ function Footer() {
 												href="#"
 												className={styles.contacts_link}
 											>
+												Partner with us
+											</a>
+										</li>
+										<li className={styles.contacts_links}>
+											<a
+												href="#"
+												className={styles.contacts_link}
+											>
 												FAQ’s
 											</a>
 										</li>
